@@ -48,7 +48,7 @@ func (s *WxPay) ConsumeWxPayNotice() (err error) {
 				continue
 			}
 			fmt.Printf("%+v", wxPayReq)
-			_ = d.Ack(true)
+			//_ = d.Ack(true)
 		}
 	}()
 	<-forever
