@@ -1,0 +1,6 @@
+runmode: debug
+etcd:
+  addr: 127.0.0.1:2379
+  schema: grpcEtcd
+rabbitmq:
+  addr: amqp://guest:guest@localhost:5672/
